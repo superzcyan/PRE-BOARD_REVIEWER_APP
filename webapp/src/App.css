@@ -1,0 +1,100 @@
+.App {
+  background-color: transparent;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #660000;
+}
+
+.App-footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  padding-top: 24px;
+  width: 100%;
+  height: 3rem;
+  color: #660000;
+  text-align: center;
+  font-size: xx-small;
+  letter-spacing: 2px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.text-logo {
+  font-family: "Alumni Sans";
+  /* font-size: xx-large; */
+}
+.p-component {
+  font-family: "Poppins", sans-serif !important;
+  font-size: small !important;
+  font-weight: normal;
+}
+
+.art-svg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.working-svg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.p-datatable .p-datatable-thead > tr > th {
+  color: #660000 !important;
+  font-weight: bolder !important;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 0.7rem !important;
+}
+.p-fluid .p-dialog-footer .p-button {
+  width: 100% !important;
+}
+
+.required-asterisk {
+  color: red;
+  font-weight: bold;
+  padding: 2px;
+}
+
+/* FOR ALL BUTTON */
+.p-button {
+  padding: 0.5rem 0.5rem !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+/* FOR ROUNDED BUTTON */
+.p-button.p-button-icon-only.p-button-rounded {
+  border-radius: 50%;
+  height: 2.357rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
