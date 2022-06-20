@@ -1,4 +1,6 @@
-# PRE-BOARD_REVIEWER_APP
+# LET's Review in MAPEH
+
+Online Pre-Board Exam Reviewer
 
 Features
 1. Spaced Repetition
